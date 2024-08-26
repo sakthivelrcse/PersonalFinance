@@ -1,0 +1,29 @@
+.allocation-results {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  margin-top: 20px;
+}
+
+.allocation-results h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.allocation-results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.allocation-results li {
+  font-size: 18px;
+  color: #34495e;
+  margin: 10px 0;
+  font-weight: 500;
+}

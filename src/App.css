@@ -1,0 +1,95 @@
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #2c3e50;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.personal-finance {
+  text-align: center; 
+}
+
+.header-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px; 
+  margin-bottom: 20px; 
+}
+
+.personal-finance {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+.link {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 5px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .personal-finance {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .header-image {
+    max-width: 100%; /* Ensure the image is responsive */
+  }
+}
+@media (max-width: 1024px) {
+  .personal-finance {
+    max-width: 600px; /* Adjust container width for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .personal-finance {
+    max-width: 100%; /* Full width on very small screens */
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px; /* Further adjust font size for mobile */
+  }
+
+  .nav-link {
+    padding: 10px 20px;
+    font-size: 14px; /* Adjust button size for small screens */
+  }
+}
